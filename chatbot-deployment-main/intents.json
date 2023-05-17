@@ -1,0 +1,186 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+      ,"link":""},
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+      ,"link":""},
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      ,"link":""},
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+      ,"link":""},
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+      ,"link":""},
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+      ,"link":""},
+    
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+     ,"link":""},
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+     ,"link":""},
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+     ,"link":""},
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    ,"link":""},
+    {"tag": "kdpit",
+    "patterns": ["Information about kdpit", "what is kdpit","full form of kdpit","what is the full form of kdpit"],
+    "responses": ["Smt. Kundanben Dinsha Patel Department of Information Technology , established in 2000 which offers 120 seats in B. Tech. and 15 seats in PGDCS.", "Established in 2000, the Smt. Kundanben Dinsha Patel Department of Information Technology offers 120 B. Tech. seats and 15 PGDCS seats."]
+    ,"link":""},
+    {"tag": "academics",
+    "patterns": ["information about academics of kdpit", "how is the academics of kdpit", "details about Kdpit's academics"],
+    "responses": ["KDPIT provides a wide range of course modules and syllabuses for students enrolled in various semesters in order to satisfy the demands of the modern market.", "For students enrolled in various semesters, KDPIT offers a wide variety of course modules and syllabuses to meet the needs of the current market."]
+    ,"link":""},
+    {"tag": "coursemodule",
+    "patterns": ["what are the Course Module in kdpit", "what are the Course Module for semester 1", "what are the Course Module for semester 2", "what are the Course Module for semester 3", "what are the Course Module for semester 4", "what are the Course Module for semester 5", "what are the Course Module for semester 6", "what are the Course Module for semester 7" ],
+    "responses": ["Various courses are being offered for the different semesters according to the needs for the future. For further details, Click here.", "According to the demands for the future, different courses are given for the various semesters. To learn more, click here."]
+    ,"link":""},
+    {"tag": "syllabus",
+    "patterns": ["what is the Syllabus of current year", "what is the structure of syllabus"],
+    "responses": ["To get the syllabus for the current year, click here."]
+    ,"link":""},
+    {"tag": "academiccalendar",
+    "patterns": ["Academic calendar for the current year","what is the academic calendar for the current year"],
+    "responses": ["Click here to download the university's academic calendar."]
+    ,"link":""},
+    
+    {"tag": "annoncement",
+    "patterns": ["latest student annoncement", "what is the latest annoncement","what are the latest annoncements and events"],
+    "responses": ["Please click here for the most recent announcements and events."]
+    ,"link":""},
+    {"tag": "admission",
+    "patterns": ["what is the admission process", "how admission process is conducted"],
+    "responses": ["For the information about admission process, eligibility criteria, fees structure click here."]
+    ,"link":""},
+    {"tag": "fee",
+    "patterns": ["what is the fee structure", "about fees", "give some info about fees"],
+    "responses": ["There are different fee structures depending on the various programs that are provided. Please click here to learn more."]
+    ,"link":""},
+    {"tag": "fees",
+    "patterns": ["what is the fee structure"],
+    "responses": ["There are different fee structures depending on the various programs that are provided. Please click here to learn more."]
+    ,"link":""},
+    {"tag": "hostel",
+    "patterns": ["what are hostel facilities provided", "what are hostel facilities provided for the boys", "what are hostel facilities provided for the girls", "how are the accomodations provided"],
+    "responses": ["Within the campus, there are hostel accommodations for females. Click here to learn more. The boys hostel is also located outside the campus."]
+    ,"link":""},
+    {"tag": "brochure",
+    "patterns": ["brochure for the current year","provide the brochure for the current year","provide the brochure of the kdpit"],
+    "responses": ["Click here to download the university's brochure."]
+    ,"link":""},
+    {"tag": "contact",
+    "patterns": ["how can i contact the department","please provide the contact information"],
+    "responses": ["KDPIT may be contacted at +91-2697-265131. Email address: hod.it@charusat.ac.in Address: Smt. Kundanben Dinsha Patel Department of Information Technology Charotar University of Science and Technology, CHARUSAT Campus, Changa Taluka: Petlad, Dist: Anand Gujarat (India) 388 421"]
+    ,"link":""},
+    {"tag": "contact",
+    "patterns": ["how can i contact the department","please provide the contact information"],
+    "responses": ["KDPIT may be contacted at +91-2697-265131. Email address: hod.it@charusat.ac.in Address: Smt. Kundanben Dinsha Patel Department of Information Technology Charotar University of Science and Technology, CHARUSAT Campus, Changa Taluka: Petlad, Dist: Anand Gujarat (India) 388 421"]
+    ,"link":""},
+    {"tag": "phonenumber",
+    "patterns": ["can i get the phone number","please provide the phone number"],
+    "responses": ["Call +91-2697-265131 to get in touch."]
+    ,"link":""},
+    {"tag": "address",
+    "patterns": ["can i get the address","please provide the address"],
+    "responses": ["For the visit: Smt. Kundanben Dinsha Patel Department of Information Technology Charotar University of Science and Technology, CHARUSAT Campus, Changa Taluka: Petlad, Dist: Anand Gujarat (India) 388 421"]
+    ,"link":""},
+    {"tag": "email",
+    "patterns": ["can i get the email address","please provide the email address"],
+    "responses": ["Email address: hod.it@charusat.ac.in"]
+    ,"link":""},
+    
+    {"tag": "visionmission",
+    "patterns": ["what are the vision and mission of kdpit","vision and mission", "what are the visions and missions"],
+    "responses": ["Vision: To become a leading department for quality education, research and development in the field of Information Technology. Mission: To prepare next-generation technocrats for societal upliftment. To inculcate moral and ethical values in the students for building vibrant nation."]
+    ,"link":""},
+    
+    {"tag": "vision",
+    "patterns": ["what are the vision of kdpit","what are the visions"],
+    "responses": ["To become a leading department for quality education, research and development in the field of Information Technology."]
+    ,"link":""},
+    
+    {"tag": "mission",
+    "patterns": ["what are the mission of kdpit","what are the missions"],
+    "responses": ["To prepare next-generation technocrats for societal upliftment. To inculcate moral and ethical values in the students for building vibrant nation."]
+    ,"link":""},
+    
+    {"tag": "Certificate",
+    "patterns": ["what are the Certification Course provided by KDPIT","what are Certification available","List of certification courses "],
+    "responses": ["aws Academy, EC-Counsil, Academia, redhat, cisco, oracle ."]
+    ,"link":""},
+
+    {"tag": "FacultyMembers",
+    "patterns": ["Total Number of Faculty Members in KDPIT","Number of faculty member in KDPIT"],
+    "responses": ["16"]
+    ,"link":""},
+
+    {"tag": "Events",
+    "patterns": ["Events in KDPIT","Events Name","Events List"],
+    "responses": ["Congnizance Spoural Group Days Celebration  AWS Reinvent DEVOPS bootcamp startup project competation Social Activity"]
+    ,"link":""}
+
+    
+  ]
+}
